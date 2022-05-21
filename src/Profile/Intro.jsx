@@ -44,7 +44,7 @@ const Intro = () => {
         </Row>
         <Row>
         <h1>Contact: 
-             <h5>maheshilluri262@gmail.com</h5>
+             <p>maheshilluri262@gmail.com</p>
 
              </h1>
         </Row>
