@@ -23,10 +23,10 @@ const Profile = () => {
         <Navbar className="w-25" style={{display:"flex",alignItems:"center", justifyContent:"center"}}>
             <Navbar.Brand className="p-2"> <h4 className="brand">M</h4></Navbar.Brand>
             <Navbar.Brand>
-            <Button id='menuicons'
-               onClick={()=>setOpenmenu(true)}
-               >
-            {openmenu ? <Close  onClick={()=>setOpenmenu(false)} /> :<MenuIcon/>}
+            <Button id='menuicons'>
+              
+              
+            {openmenu ? <Close  onClick={()=>setOpenmenu(false)} /> :<MenuIcon onClick={()=>setOpenmenu(true)}/>}
         </Button>
             </Navbar.Brand>
         </Navbar>
