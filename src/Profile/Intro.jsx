@@ -12,7 +12,7 @@ const Intro = () => {
          <Row className='Intro-head'>
              <h1>Mahesh Elluri.</h1>
              <h3>I Build things for the web</h3>
-          <p>I'm a software engineer Intern specializing in building exceptional digital experience .Currently,I'm focused onbuilding accessible, human-centered product at SleekSky</p>
+          <p>I'm a software engineer Intern specializing in building exceptional digital experience .Currently,I'm focused onbuilding responsive web page</p>
          </Row>
             <Col><button className ="Hero-buton"> Checkout More Abot Me <ArrowRightAlt style={{width:"50px"}}/></button>   </Col>  
         </Row>
